@@ -19,12 +19,14 @@
 h1, h3{
     font-family: "Young Serif", serif;
 }
+h3{
+    margin: 20px 0px;
+}
 h2, p, li, .nutrition-info-container .item{
     font-family: "Outfit", serif;
 }
 .main-pic-container {
     width: 100%;
-
 }
 .main-pic-container img{
     width: 100%;
@@ -118,17 +120,22 @@ ol li::marker{
     display: flex;
     gap: 40px;
     margin-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.055);
+}
+.nutrition-info-container .item:last-child{
+    border-bottom: 0px;
 }
 .nutrition-info-container .item h4{
     color: hsl(30, 10%, 34%);
     width: 45%;
     padding-left: 20px;
-    display: flex;
-    align-items: center;
 }
 .nutrition-info-container .item p{
     width: 45%;
     color:hsl(14, 45%, 36%);
     font-weight: 700;
-    margin: 10px 0px;
+    margin-bottom: 10px;
+}
+.attribution{
+    margin: 36px;
 }

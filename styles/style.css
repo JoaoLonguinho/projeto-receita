@@ -1,0 +1,24 @@
+@media screen and (min-width: 992px){
+    body{
+        background-color: hsl(30, 54%, 90%);
+    }
+    main{
+        width: 677px;
+        margin: auto;
+        background-color: white;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-top: 36px;
+        box-sizing: border-box;
+    }
+    .main-pic-container {
+        width: 100%;
+        padding: 36px 36px 0px 36px;
+        box-sizing: border-box;
+    }
+    .main-pic-container img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+}
